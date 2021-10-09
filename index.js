@@ -65,18 +65,39 @@ const fetchPlanetsItem = () => {
 
             ul.innerHTML = listPlanet       
 
-            console.log(listPlanet)
 
         })
 
 }
+
+
 
 fetchPeopleItem() 
 fetchPlanetsItem()
 
 
 
+// let p = document.querySelectorAll('p.controle');
 
+// for (i=0; i<=p.length; i++){
+//     p[i].style.color = 'green';
+// }
+
+// let teste = document.querySelectorAll('test');
+// console.log(teste)
+
+
+var element =  document.getElementsByClassName('controle');
+
+if (element.length > 0)
+{
+  console.log('o elemento existe')
+}
+
+// if (typeof(element) != 'undefined' && element != null)
+// {
+//   console.log('o elemento existe')
+// }
 
 
 
